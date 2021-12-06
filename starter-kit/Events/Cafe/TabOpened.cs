@@ -39,6 +39,12 @@ namespace Events.Something
         public List<OrderedItem> Items;
     }
 
+    public class FoodPrepared
+    {
+        public Guid Id;
+        public List<int> MenuNumbers;
+    }
+
     public class DrinksServed
     {
         public Guid Id;

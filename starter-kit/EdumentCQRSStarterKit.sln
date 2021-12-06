@@ -7,9 +7,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Edument.CQRS", "Edument.CQR
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Events", "Events\Events.csproj", "{B195F4C7-41EF-403C-AA05-0018B9DF25F8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cafe", "YourDomain\Cafe.csproj", "{42FE290D-7A80-451B-AC4F-A7B34B3B3D3B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cafe", "Cafe\Cafe.csproj", "{42FE290D-7A80-451B-AC4F-A7B34B3B3D3B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CafeTests", "YourDomainTests\CafeTests.csproj", "{4306B621-323B-4574-BFBF-2D002491AE1E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CafeTests", "CafeTests\CafeTests.csproj", "{4306B621-323B-4574-BFBF-2D002491AE1E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CafeReadModel", "CafeReadModel\CafeReadModel.csproj", "{C1D4D556-3C0B-460F-9FF0-D84CB259DC99}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{4306B621-323B-4574-BFBF-2D002491AE1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4306B621-323B-4574-BFBF-2D002491AE1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4306B621-323B-4574-BFBF-2D002491AE1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1D4D556-3C0B-460F-9FF0-D84CB259DC99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1D4D556-3C0B-460F-9FF0-D84CB259DC99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1D4D556-3C0B-460F-9FF0-D84CB259DC99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1D4D556-3C0B-460F-9FF0-D84CB259DC99}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
