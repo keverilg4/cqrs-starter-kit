@@ -1,13 +1,15 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31919.166
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Edument.CQRS", "Edument.CQRS\Edument.CQRS.csproj", "{D2BAB57D-225D-4F4C-9410-ED39495A8FE0}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Events", "Events\Events.csproj", "{B195F4C7-41EF-403C-AA05-0018B9DF25F8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YourDomain", "YourDomain\YourDomain.csproj", "{42FE290D-7A80-451B-AC4F-A7B34B3B3D3B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cafe", "YourDomain\Cafe.csproj", "{42FE290D-7A80-451B-AC4F-A7B34B3B3D3B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YourDomainTests", "YourDomainTests\YourDomainTests.csproj", "{4306B621-323B-4574-BFBF-2D002491AE1E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CafeTests", "YourDomainTests\CafeTests.csproj", "{4306B621-323B-4574-BFBF-2D002491AE1E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -34,5 +36,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A00BDD23-CC95-4FB3-8D3F-879B134E6B71}
 	EndGlobalSection
 EndGlobal

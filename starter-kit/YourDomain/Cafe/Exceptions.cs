@@ -8,4 +8,14 @@ namespace YourDomain.Something
     public class SomethingCanOnlyHappenOnce : Exception
     {
     }
+
+    public class TabNotOpen : Exception
+    {
+
+    }
+
+    public class DrinksNotOutstanding : Exception
+    { 
+    }
+
 }
